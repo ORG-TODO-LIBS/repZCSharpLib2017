@@ -1,0 +1,2 @@
+# repZCSharpLib2017
+VS2017Default.NetFrameworkVersion
