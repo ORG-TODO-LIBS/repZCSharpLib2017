@@ -1,0 +1,10 @@
+C:\Users\zhang\Downloads\Fleck-master\Fleck-master\src\Samples\ConsoleApp\bin\Debug\Fleck.Samples.ConsoleApp.exe
+C:\Users\zhang\Downloads\Fleck-master\Fleck-master\src\Samples\ConsoleApp\bin\Debug\Fleck.Samples.ConsoleApp.pdb
+C:\Users\zhang\Downloads\Fleck-master\Fleck-master\src\Samples\ConsoleApp\obj\x86\Debug\ConsoleApp.csprojAssemblyReference.cache
+C:\Users\zhang\Downloads\Fleck-master\Fleck-master\src\Samples\ConsoleApp\obj\x86\Debug\ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\zhang\Downloads\Fleck-master\Fleck-master\src\Samples\ConsoleApp\obj\x86\Debug\ConsoleApp.csproj.CopyComplete
+C:\Users\zhang\Downloads\Fleck-master\Fleck-master\src\Samples\ConsoleApp\obj\x86\Debug\Fleck.Samples.ConsoleApp.exe
+C:\Users\zhang\Downloads\Fleck-master\Fleck-master\src\Samples\ConsoleApp\obj\x86\Debug\Fleck.Samples.ConsoleApp.pdb
+C:\Users\zhang\Downloads\Fleck-master\Fleck-master\src\Samples\ConsoleApp\bin\Debug\Fleck.Samples.ConsoleApp.exe.config
+C:\Users\zhang\Downloads\Fleck-master\Fleck-master\src\Samples\ConsoleApp\bin\Debug\FleckLib.dll
+C:\Users\zhang\Downloads\Fleck-master\Fleck-master\src\Samples\ConsoleApp\bin\Debug\FleckLib.pdb

@@ -1,0 +1,5 @@
+C:\Users\zhang\Downloads\Fleck-master\Fleck-master\src\FleckLib\obj\Debug\ZWebSocket.csproj.CoreCompileInputs.cache
+C:\Users\zhang\Downloads\Fleck-master\Fleck-master\src\FleckLib\obj\Debug\FleckLib.dll
+C:\Users\zhang\Downloads\Fleck-master\Fleck-master\src\FleckLib\obj\Debug\FleckLib.pdb
+C:\Users\zhang\Downloads\Fleck-master\Fleck-master\src\FleckLib\bin\Debug\FleckLib.dll
+C:\Users\zhang\Downloads\Fleck-master\Fleck-master\src\FleckLib\bin\Debug\FleckLib.pdb
