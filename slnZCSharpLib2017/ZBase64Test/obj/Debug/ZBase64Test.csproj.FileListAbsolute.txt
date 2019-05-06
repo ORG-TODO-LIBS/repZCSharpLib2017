@@ -8,3 +8,5 @@ D:\01_gits\repZCSharpLib2017\slnZCSharpLib2017\ZBase64Test\obj\Debug\ZBase64Test
 D:\01_gits\repZCSharpLib2017\slnZCSharpLib2017\ZBase64Test\obj\Debug\ZBase64Test.csproj.CopyComplete
 D:\01_gits\repZCSharpLib2017\slnZCSharpLib2017\ZBase64Test\obj\Debug\ZBase64Test.exe
 D:\01_gits\repZCSharpLib2017\slnZCSharpLib2017\ZBase64Test\obj\Debug\ZBase64Test.pdb
+D:\01_gits\repZCSharpLib2017\slnZCSharpLib2017\ZBase64Test\bin\Debug\ZImage.dll
+D:\01_gits\repZCSharpLib2017\slnZCSharpLib2017\ZBase64Test\bin\Debug\ZImage.pdb

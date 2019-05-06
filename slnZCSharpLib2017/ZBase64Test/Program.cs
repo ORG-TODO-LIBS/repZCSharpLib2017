@@ -14,7 +14,12 @@ namespace ZBase64Test
 
             using (var img = ZBase64.ZBase64Helper.Idispose_FromJSBase64(base64str))
             {
-                img.Save("D:/imageNew" + "." + ZBase64.ZBase64Helper.GetExtensionName(base64str));
+                img.Save("D:/imageNew2" + "." + ZBase64.ZBase64Helper.GetExtensionName(base64str));
+
+                var smallimg = ZImage.ZImageHelper.Idispose_BigToSmallImage(100, 50, img);
+
+                smallimg.Save("D:/imageNew2_small" + "." + ZBase64.ZBase64Helper.GetExtensionName(base64str));
+
                 Console.ReadKey();
             }
         }
