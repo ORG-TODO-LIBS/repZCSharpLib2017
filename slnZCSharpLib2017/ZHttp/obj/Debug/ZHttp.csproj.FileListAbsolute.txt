@@ -1,6 +1,5 @@
 D:\01_gits\repZCSharpLib2017\slnZCSharpLib2017\ZHttp\bin\Debug\ZHttp.dll
 D:\01_gits\repZCSharpLib2017\slnZCSharpLib2017\ZHttp\bin\Debug\ZHttp.pdb
-D:\01_gits\repZCSharpLib2017\slnZCSharpLib2017\ZHttp\obj\Debug\ZHttp.csprojAssemblyReference.cache
 D:\01_gits\repZCSharpLib2017\slnZCSharpLib2017\ZHttp\obj\Debug\ZHttp.csproj.CoreCompileInputs.cache
 D:\01_gits\repZCSharpLib2017\slnZCSharpLib2017\ZHttp\obj\Debug\ZHttp.dll
 D:\01_gits\repZCSharpLib2017\slnZCSharpLib2017\ZHttp\obj\Debug\ZHttp.pdb
