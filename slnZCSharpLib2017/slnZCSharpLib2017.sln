@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZBase64Test", "ZBase64Test\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZImage", "ZImage\ZImage.csproj", "{81D4684F-F2CB-4AFF-912F-AB4ACD86C498}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZMySql", "ZMySql\ZMySql.csproj", "{472CA3B4-C7F3-4235-A31F-82EEE11C53E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,14 @@ Global
 		{81D4684F-F2CB-4AFF-912F-AB4ACD86C498}.Release|Any CPU.Build.0 = Release|Any CPU
 		{81D4684F-F2CB-4AFF-912F-AB4ACD86C498}.Release|x86.ActiveCfg = Release|Any CPU
 		{81D4684F-F2CB-4AFF-912F-AB4ACD86C498}.Release|x86.Build.0 = Release|Any CPU
+		{472CA3B4-C7F3-4235-A31F-82EEE11C53E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{472CA3B4-C7F3-4235-A31F-82EEE11C53E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{472CA3B4-C7F3-4235-A31F-82EEE11C53E4}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{472CA3B4-C7F3-4235-A31F-82EEE11C53E4}.Debug|x86.Build.0 = Debug|Any CPU
+		{472CA3B4-C7F3-4235-A31F-82EEE11C53E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{472CA3B4-C7F3-4235-A31F-82EEE11C53E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{472CA3B4-C7F3-4235-A31F-82EEE11C53E4}.Release|x86.ActiveCfg = Release|Any CPU
+		{472CA3B4-C7F3-4235-A31F-82EEE11C53E4}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
