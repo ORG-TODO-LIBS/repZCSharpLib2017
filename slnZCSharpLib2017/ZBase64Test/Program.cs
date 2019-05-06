@@ -14,7 +14,7 @@ namespace ZBase64Test
 
             using (var img = ZBase64.ZBase64Helper.Idispose_FromJSBase64(base64str))
             {
-                img.Save("D:/abcimg");
+                img.Save("D:/imageNew" + "." + ZBase64.ZBase64Helper.GetExtensionName(base64str));
                 Console.ReadKey();
             }
         }

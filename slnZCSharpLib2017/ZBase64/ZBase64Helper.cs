@@ -27,5 +27,25 @@ namespace ZBase64
             System.Drawing.Image img = System.Drawing.Image.FromStream(ms);
             return img;
         }
+
+        /// <summary>
+        /// 获取指定图片 base64 的扩展名
+        /// </summary>
+        /// <param name="imageBase64">指定图片的 base64</param>
+        /// <returns>扩展名（不包含.）</returns>
+        public static string GetExtensionName(string imageBase64)
+        {
+            string image_bmp = imageBase64.Split(';')[1];
+            string extname;
+            if (image_bmp.Contains("image"))
+            {
+                extname = image_bmp.Replace("image/", "");
+            }
+            else
+            {
+                extname = "bmp";
+            }
+            return extname;
+        }
     }
 }
