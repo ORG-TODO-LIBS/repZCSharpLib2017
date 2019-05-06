@@ -1,0 +1,6 @@
+D:\01_gits\repZCSharpLib2017\slnZCSharpLib2017\ZMD5\bin\Debug\ZMD5.dll
+D:\01_gits\repZCSharpLib2017\slnZCSharpLib2017\ZMD5\bin\Debug\ZMD5.pdb
+D:\01_gits\repZCSharpLib2017\slnZCSharpLib2017\ZMD5\obj\Debug\ZMD5.csprojAssemblyReference.cache
+D:\01_gits\repZCSharpLib2017\slnZCSharpLib2017\ZMD5\obj\Debug\ZMD5.csproj.CoreCompileInputs.cache
+D:\01_gits\repZCSharpLib2017\slnZCSharpLib2017\ZMD5\obj\Debug\ZMD5.dll
+D:\01_gits\repZCSharpLib2017\slnZCSharpLib2017\ZMD5\obj\Debug\ZMD5.pdb
