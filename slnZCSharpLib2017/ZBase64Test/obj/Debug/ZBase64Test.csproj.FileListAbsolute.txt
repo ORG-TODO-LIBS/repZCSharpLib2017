@@ -1,0 +1,10 @@
+D:\01_gits\repZCSharpLib2017\slnZCSharpLib2017\ZBase64Test\bin\Debug\ZBase64Test.exe.config
+D:\01_gits\repZCSharpLib2017\slnZCSharpLib2017\ZBase64Test\bin\Debug\ZBase64Test.exe
+D:\01_gits\repZCSharpLib2017\slnZCSharpLib2017\ZBase64Test\bin\Debug\ZBase64Test.pdb
+D:\01_gits\repZCSharpLib2017\slnZCSharpLib2017\ZBase64Test\bin\Debug\ZBase64.dll
+D:\01_gits\repZCSharpLib2017\slnZCSharpLib2017\ZBase64Test\bin\Debug\ZBase64.pdb
+D:\01_gits\repZCSharpLib2017\slnZCSharpLib2017\ZBase64Test\obj\Debug\ZBase64Test.csprojAssemblyReference.cache
+D:\01_gits\repZCSharpLib2017\slnZCSharpLib2017\ZBase64Test\obj\Debug\ZBase64Test.csproj.CoreCompileInputs.cache
+D:\01_gits\repZCSharpLib2017\slnZCSharpLib2017\ZBase64Test\obj\Debug\ZBase64Test.csproj.CopyComplete
+D:\01_gits\repZCSharpLib2017\slnZCSharpLib2017\ZBase64Test\obj\Debug\ZBase64Test.exe
+D:\01_gits\repZCSharpLib2017\slnZCSharpLib2017\ZBase64Test\obj\Debug\ZBase64Test.pdb
