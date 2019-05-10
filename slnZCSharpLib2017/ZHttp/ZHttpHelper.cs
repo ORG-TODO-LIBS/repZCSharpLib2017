@@ -69,5 +69,36 @@ namespace ZHttp
             }
             return msgPostRet;
         }
+
+        /// <summary>
+        /// 发送 post 请求，在post中对应的 Content-Type 为：raw, json。
+        /// </summary>
+        /// <param name="url">post地址</param>
+        /// <param name="jsonstr">Text内容</param>
+        /// <returns>请求返回的数据</returns>
+        public static string Post_Json(string url, string jsonstr)
+        {
+            var request = (HttpWebRequest)WebRequest.Create(url);
+            //var postData = "thing1=hello";
+            //postData += "&thing2=world";
+            var data = Encoding.ASCII.GetBytes(jsonstr);
+            request.Method = "POST";
+            // request.ContentType = "application/x-www-form-urlencoded";
+            request.ContentType = "application/json";
+            request.ContentLength = data.Length;
+            using (var stream = request.GetRequestStream())
+            {
+                stream.Write(data, 0, data.Length);
+            }
+            string msgPostRet;
+            using (var response = (HttpWebResponse)request.GetResponse())
+            {
+                using (StreamReader sr = new StreamReader(response.GetResponseStream()))
+                {
+                    msgPostRet = sr.ReadToEnd();
+                }
+            }
+            return msgPostRet;
+        }
     }
 }
