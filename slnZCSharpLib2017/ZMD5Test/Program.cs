@@ -10,8 +10,11 @@ namespace ZMD5Test
     {
         static void Main(string[] args)
         {
-            string srcStr = "1122";
-            string md5edStr = ZMD5.ZMD5Helper.ToMD5(srcStr, Encoding.UTF8);
+            string srcStr = "123";
+            string md5edStr = ZMD5.ZMD5Helper.GetStringMD5(srcStr, Encoding.UTF8); // 202cb962ac59075b964b07152d234b70
+
+            string filemd5 = ZMD5.ZMD5Helper.GetFileMD5("D:/md5test.txt");// 202cb962ac59075b964b07152d234b70
+
             Console.WriteLine(md5edStr);
             Console.ReadKey();
         }

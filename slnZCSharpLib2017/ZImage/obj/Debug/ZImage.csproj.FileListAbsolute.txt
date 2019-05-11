@@ -1,6 +1,0 @@
-D:\01_gits\repZCSharpLib2017\slnZCSharpLib2017\ZImage\bin\Debug\ZImage.dll
-D:\01_gits\repZCSharpLib2017\slnZCSharpLib2017\ZImage\bin\Debug\ZImage.pdb
-D:\01_gits\repZCSharpLib2017\slnZCSharpLib2017\ZImage\obj\Debug\ZImage.csprojAssemblyReference.cache
-D:\01_gits\repZCSharpLib2017\slnZCSharpLib2017\ZImage\obj\Debug\ZImage.csproj.CoreCompileInputs.cache
-D:\01_gits\repZCSharpLib2017\slnZCSharpLib2017\ZImage\obj\Debug\ZImage.dll
-D:\01_gits\repZCSharpLib2017\slnZCSharpLib2017\ZImage\obj\Debug\ZImage.pdb

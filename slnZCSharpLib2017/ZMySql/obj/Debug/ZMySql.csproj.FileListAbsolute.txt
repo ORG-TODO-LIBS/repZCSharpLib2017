@@ -1,9 +1,0 @@
-D:\01_gits\repZCSharpLib2017\slnZCSharpLib2017\ZMySql\bin\Debug\ZMySql.dll
-D:\01_gits\repZCSharpLib2017\slnZCSharpLib2017\ZMySql\bin\Debug\ZMySql.pdb
-D:\01_gits\repZCSharpLib2017\slnZCSharpLib2017\ZMySql\bin\Debug\MySql.Data.dll
-D:\01_gits\repZCSharpLib2017\slnZCSharpLib2017\ZMySql\bin\Debug\MySql.Data.xml
-D:\01_gits\repZCSharpLib2017\slnZCSharpLib2017\ZMySql\obj\Debug\ZMySql.csprojAssemblyReference.cache
-D:\01_gits\repZCSharpLib2017\slnZCSharpLib2017\ZMySql\obj\Debug\ZMySql.csproj.CoreCompileInputs.cache
-D:\01_gits\repZCSharpLib2017\slnZCSharpLib2017\ZMySql\obj\Debug\ZMySql.csproj.CopyComplete
-D:\01_gits\repZCSharpLib2017\slnZCSharpLib2017\ZMySql\obj\Debug\ZMySql.dll
-D:\01_gits\repZCSharpLib2017\slnZCSharpLib2017\ZMySql\obj\Debug\ZMySql.pdb

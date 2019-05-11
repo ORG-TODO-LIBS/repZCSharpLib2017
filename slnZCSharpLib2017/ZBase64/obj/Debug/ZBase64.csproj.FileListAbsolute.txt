@@ -1,6 +1,0 @@
-D:\01_gits\repZCSharpLib2017\slnZCSharpLib2017\ZBase64\bin\Debug\ZBase64.dll
-D:\01_gits\repZCSharpLib2017\slnZCSharpLib2017\ZBase64\bin\Debug\ZBase64.pdb
-D:\01_gits\repZCSharpLib2017\slnZCSharpLib2017\ZBase64\obj\Debug\ZBase64.csprojAssemblyReference.cache
-D:\01_gits\repZCSharpLib2017\slnZCSharpLib2017\ZBase64\obj\Debug\ZBase64.csproj.CoreCompileInputs.cache
-D:\01_gits\repZCSharpLib2017\slnZCSharpLib2017\ZBase64\obj\Debug\ZBase64.dll
-D:\01_gits\repZCSharpLib2017\slnZCSharpLib2017\ZBase64\obj\Debug\ZBase64.pdb
