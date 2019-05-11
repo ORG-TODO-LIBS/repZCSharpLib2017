@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZLog", "ZLog\ZLog.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZLogTest", "ZLogTest\ZLogTest.csproj", "{C3CC4B0B-EF23-463A-8992-CB5469EB05AA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZWebTest", "ZWebTest\ZWebTest.csproj", "{9157CE09-15F3-47C4-A7CD-9C8CA39DAB69}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,14 @@ Global
 		{C3CC4B0B-EF23-463A-8992-CB5469EB05AA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C3CC4B0B-EF23-463A-8992-CB5469EB05AA}.Release|x86.ActiveCfg = Release|Any CPU
 		{C3CC4B0B-EF23-463A-8992-CB5469EB05AA}.Release|x86.Build.0 = Release|Any CPU
+		{9157CE09-15F3-47C4-A7CD-9C8CA39DAB69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9157CE09-15F3-47C4-A7CD-9C8CA39DAB69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9157CE09-15F3-47C4-A7CD-9C8CA39DAB69}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9157CE09-15F3-47C4-A7CD-9C8CA39DAB69}.Debug|x86.Build.0 = Debug|Any CPU
+		{9157CE09-15F3-47C4-A7CD-9C8CA39DAB69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9157CE09-15F3-47C4-A7CD-9C8CA39DAB69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9157CE09-15F3-47C4-A7CD-9C8CA39DAB69}.Release|x86.ActiveCfg = Release|Any CPU
+		{9157CE09-15F3-47C4-A7CD-9C8CA39DAB69}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

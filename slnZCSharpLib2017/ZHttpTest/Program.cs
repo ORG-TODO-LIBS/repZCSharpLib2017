@@ -21,6 +21,12 @@ namespace ZHttpTest
 }}
 ", "8A99A875C0D7ACEABA4F50BCB30D8EA6BE9ACB415A7EE958383B139EA6B17B50B129B891A7D0A189177F2062817E97EB3C0511ABFB97E04D9B3D9996255C6214254151B8DC8F89B6D4EC5C7454556F04"));
 
+            //string getretdata = ZHttp.ZHttpHelper.Get("http://localhost:5045/Handlers/TestHandler1.ashx?A=22&B1=33", out statusCode);
+            Dictionary<string, string> para = new Dictionary<string, string>();
+            para.Add("A", "ab123");
+            para.Add("B1", "ab345");
+            string postResult = ZHttp.ZHttpHelper.Post("http://localhost:5045/Handlers/TestHandler1.ashx", para);
+
             Console.WriteLine(statusCode);
             Console.ReadKey();
         }

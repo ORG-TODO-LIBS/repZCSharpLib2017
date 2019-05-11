@@ -100,5 +100,28 @@ namespace ZHttp
             }
             return msgPostRet;
         }
+
+        /// <summary>
+        /// 发送 post 请求（不带文件），常用于form-data
+        /// </summary>
+        /// <param name="url">请求地址</param>
+        /// <param name="datas">post的数据</param>
+        /// <returns></returns>
+        public static string Post(string url, Dictionary<string, string> datas)
+        {
+            using (var httpClient = new HttpClient())
+            {
+                // 请求头设置
+                httpClient.DefaultRequestHeaders.Add("ContentType", "multipart/form-data");//设置请求头
+
+                //post
+                var urlobj = new Uri(url);
+                var body = new FormUrlEncodedContent(datas);
+                // response
+                var response = httpClient.PostAsync(urlobj, body).Result;
+                var data = response.Content.ReadAsStringAsync().Result;
+                return data;//接口调用成功数据
+            }
+        }
     }
 }
