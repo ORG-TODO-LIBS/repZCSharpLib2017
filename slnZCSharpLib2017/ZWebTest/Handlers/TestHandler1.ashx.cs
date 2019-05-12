@@ -14,16 +14,14 @@ namespace ZWebTest.Handlers
 
         public void ProcessRequest(HttpContext context)
         {
-            string a = context.Request.Form["A"];
-            string b = context.Request.Form["B1"];
+            string a = context.Request["D1"];
+            string b = context.Request["D2"];
+            string c = context.Request["C3"];
+            var file = context.Request.Files["F1"];
 
-            ZAES z = new ZAES();
-            string enced = z.EncryptByAES("0000", "abcabcabcabcabcabcabcabc");
-
-
-            string originstr = z.DecryptByAES(enced, "abcabcabcabcabcabcabcabc");
-
-
+            //ZAES z = new ZAES();
+            //string enced = z.EncryptByAES("0000", "abcabcabcabcabcabcabcabc");
+            //string originstr = z.DecryptByAES(enced, "abcabcabcabcabcabcabcabc");
 
             context.Response.ContentType = "text/plain";
             context.Response.Write("Hello World");
