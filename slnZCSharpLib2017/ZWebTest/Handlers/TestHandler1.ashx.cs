@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Web.Script.Serialization;
 using ZEncrypt;
 
 namespace ZWebTest.Handlers
@@ -14,17 +15,26 @@ namespace ZWebTest.Handlers
 
         public void ProcessRequest(HttpContext context)
         {
-            string a = context.Request["D1"];
-            string b = context.Request["D2"];
-            string c = context.Request["C3"];
-            var file = context.Request.Files["F1"];
+            var file = context.Request.Files["fileContent"];
+            var count = context.Request.Files.Count;
+            string ProjectID = context.Request["ProjectID"];
+            string ModelID = context.Request["ModelID"];
+            string UserName = context.Request["UserName"];
+            string Phase = context.Request["Phase"];
+            string updateTime = context.Request["updateTime"];
 
-            //ZAES z = new ZAES();
-            //string enced = z.EncryptByAES("0000", "abcabcabcabcabcabcabcabc");
-            //string originstr = z.DecryptByAES(enced, "abcabcabcabcabcabcabcabc");
+            JavaScriptSerializer jser = new JavaScriptSerializer();
+            var str = jser.Serialize(new {
+                count,
+                ProjectID,
+                ModelID,
+                UserName,
+                Phase,
+                updateTime
+            });
 
             context.Response.ContentType = "text/plain";
-            context.Response.Write("Hello World");
+            context.Response.Write(str);
         }
 
         public bool IsReusable
